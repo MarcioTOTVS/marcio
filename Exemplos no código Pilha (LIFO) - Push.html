@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>Dev do Futuro Exemplo de Codigo</h2>
+    <p id="demo"></p>
+    <script>
+        var numeros = [];
+        document.getElementById("demo").innerHTML = numeros;
+        var numero = 0;
+        for (i = 0; i < 3; i++) {
+            numero = Math.random() * 100;
+            numero = Math.round(numero);
+            numeros.push(numero);
+            alert("Adicionando um elemento a pilha " + numero + " , posição " + i);
+
+        }
+        document.getElementById("demo").innerHTML = numeros; 
+
+    </script>
+</body>
+
+</html>

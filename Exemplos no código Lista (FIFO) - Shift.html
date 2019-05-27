@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>Dev do Futuro Exemplo de Codigo</h2>
+    <button onclick="Remover()">Remover</button>
+    <p id="demo"></p>
+    <script>
+        var frutas = ["Banana", "Laranja", "Maçã", "Manga"];
+        var pos = 01
+        document.getElementById("demo").innerHTML = frutas;
+        function Remover() {
+            texto = frutas[0];
+            frutas.shift();
+            alert("Removendo o elemento " + texto);
+            document.getElementById("demo").innerHTML = frutas;
+        }
+    </script>
+
+
+</body>
+
+</html>
